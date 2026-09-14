@@ -143,3 +143,24 @@ KPIs & Charts
 Interactive Dashboard
    ↓
 Business Insights
+## 📸 Dashboard Preview
+
+### Main Dashboard
+
+![Sports Dashboard](images/dashboard.png)
+
+### Team Performance
+
+![Team Performance](images/team.png)
+
+### Player Performance
+
+![Player Performance](images/player.png)
+
+### Attendance Analysis
+
+![Attendance Analysis](images/attendance.png)
+
+### Pricing Analysis
+
+![Pricing Analysis](images/pricing.png)
