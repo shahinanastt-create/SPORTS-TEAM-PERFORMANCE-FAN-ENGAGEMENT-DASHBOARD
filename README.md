@@ -14,23 +14,23 @@ The dashboard uses **PivotTables, PivotCharts, Slicers, Timeline, formulas, inte
 
 ### Match Analytics
 
-![Match Analytics](images/match-analytics.png)
+<img width="594" height="420" alt="Screenshot 2026-09-09 094036" src="https://github.com/user-attachments/assets/c375e21b-c43b-47a2-8c7e-1afef4748ec3" />
 
 ### Player Performance
 
-![Player Performance](images/player-performance.png)
+<img width="518" height="448" alt="Screenshot 2026-09-09 094124" src="https://github.com/user-attachments/assets/77760809-e976-4409-9891-709bd2a47c90" />
 
 ### Attendance & Fan Engagement
 
-![Attendance and Fan Engagement](images/attendance-fan-engagement.png)
+<img width="506" height="450" alt="Screenshot 2026-09-09 094211" src="https://github.com/user-attachments/assets/92a21847-8241-44b2-9328-30ac7fa97e25" />
 
 ### Revenue Analysis
 
-![Revenue Analysis](images/revenue-analysis.png)
+<img width="620" height="418" alt="Screenshot 2026-09-09 094251" src="https://github.com/user-attachments/assets/79900586-841f-40ef-b294-48e6bb91acd7" />
 
 ### Dashboard Branding
 
-![Dashboard Logo](images/dashboard-logo.png)
+<img width="621" height="432" alt="Screenshot 2026-09-09 094319" src="https://github.com/user-attachments/assets/d66652c4-048d-4f26-8399-ec2048a5da2c" />
 
 ---
 
