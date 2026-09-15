@@ -1,166 +1,257 @@
 # SPORTS-TEAM-PERFORMANCE-AND-FAN-ENGAGEMENT-DASHBOARD
-# 🏆 Sports Team Performance & Fan Engagement Dashboard
+# 🏆 Indian Super League – Sports Team Performance & Fan Engagement Dashboard
 
-## 📊 Project Overview
+An interactive **Microsoft Excel dashboard project** designed to analyze Indian Super League (ISL) match performance, player performance, attendance, fan engagement, ticket revenue, and merchandise revenue.
 
-This project is an **Excel-based Sports Team Performance and Fan Engagement Dashboard** designed to analyze team performance, player statistics, attendance, ticket revenue, merchandise revenue, and fan engagement.
+The dashboard uses **PivotTables, PivotCharts, Slicers, Timeline, formulas, interactive filters, and data visualization** to transform raw sports data into an easy-to-use analytics dashboard.
 
-The dashboard transforms raw sports data into meaningful insights using **Excel Pivot Tables, formulas, charts, and interactive dashboard elements**.
+---
+
+## 📊 Dashboard Preview
+
+### Main Dashboard
+
+![Dashboard Overview](images/dashboard-overview.png)
+
+### Match Analytics
+
+![Match Analytics](images/match-analytics.png)
+
+### Player Performance
+
+![Player Performance](images/player-performance.png)
+
+### Attendance & Fan Engagement
+
+![Attendance and Fan Engagement](images/attendance-fan-engagement.png)
+
+### Revenue Analysis
+
+![Revenue Analysis](images/revenue-analysis.png)
+
+### Dashboard Branding
+
+![Dashboard Logo](images/dashboard-logo.png)
 
 ---
 
 ## 🎯 Project Objectives
 
-The main objectives of this project are:
+The main objective of this project is to build an interactive sports analytics dashboard that helps users:
 
-- Analyze overall team performance
-- Compare teams based on goals and match results
-- Analyze player performance
-- Identify attendance trends
-- Analyze ticket revenue
-- Analyze merchandise revenue
+- Analyze overall match performance
+- Compare team performance
+- Identify top and bottom performing players
+- Track win and loss trends
+- Analyze attendance trends
 - Understand fan engagement across different channels
-- Analyze ticket pricing and revenue
-- Compare home, away, and neutral venue performance
-- Understand fan demographics
+- Compare ticket and merchandise revenue
+- Filter results by date, team, venue, and match result
+- Present sports data in a professional dashboard format
 
 ---
 
-## 📁 Dataset
+## 📌 Key Dashboard KPIs
 
-The project contains approximately **5,500 records** of sports-related data.
+The dashboard provides important high-level KPIs:
 
-### Main Data Fields
+| KPI | Value |
+|---|---:|
+| Total Matches | 360 |
+| Match Percentage | 53% |
+| Total Ticket Revenue | ₹18,76,70,597 |
+| Total Merchandise Revenue | ₹4,53,86,602 |
 
-| Category | Fields |
-|---|---|
-| Match Information | Match ID, Date, Team, Opponent, Venue |
-| Performance | Goals For, Goals Against, Match Result |
-| Attendance | Attendance |
-| Player | Player, Position, Minutes Played |
-| Player Performance | Goals, Assists |
-| Fan Engagement | Fan Channel, Engagement Reach, Engagement Rate |
-| Revenue | Merchandise Revenue, Average Ticket Price, Ticket Revenue |
-| Fan Demographics | Fan Age, Fan Gender |
+> KPI values may change when different dashboard filters are applied.
 
 ---
 
-## 📑 Excel Workbook Structure
+## 📈 Dashboard Sections
+
+### 1. Dashboard Overview
+
+The main dashboard provides:
+
+- Total Matches
+- Match Percentage
+- Total Ticket Revenue
+- Total Merchandise Revenue
+- Date filters
+- Match Result filters
+- Team filters
+- Venue filters
+
+---
+
+### 2. Match Analytics
+
+The Match Analytics section contains:
+
+- Win & Loss Trend
+- Match Result Analysis
+- Goals analysis
+- Match Count
+- Year-wise analysis
+- Month-wise analysis
+
+---
+
+### 3. Player Performance
+
+The Player Performance section focuses on:
+
+- Top 10 Players
+- Bottom 10 Players
+- Player Statistics
+- Player Wins
+- Player-level comparison
+
+---
+
+### 4. Attendance & Fan Engagement
+
+This section analyzes:
+
+- Monthly attendance trends
+- Email engagement
+- Facebook engagement
+- Instagram engagement
+- Mobile App engagement
+- Website engagement
+- X/Twitter engagement
+- YouTube engagement
+- Match-result comparison
+
+---
+
+### 5. Pricing & Revenue Analysis
+
+The Pricing Analysis section compares:
+
+- Monthly Ticket Revenue
+- Monthly Merchandise Revenue
+- Revenue trends
+- Monthly revenue performance
+
+---
+
+## 🎛️ Interactive Filters
+
+The dashboard contains interactive Excel controls for:
+
+### Date
+
+- Year
+- Month
+
+### Match Result
+
+- Draw
+- Loss
+- Win
+
+### Team
+
+- Bengaluru FC
+- Chennaiyin FC
+- East Bengal
+- FC Goa
+- Hyderabad FC
+- Kerala Blasters
+- Mohun Bagan
+- Mumbai City
+
+### Venue
+
+- Away Stadium
+- Home Stadium
+- Neutral Venue
+
+These filters allow users to interactively explore the dashboard.
+
+---
+
+## 🗂️ Excel Workbook Structure
 
 The workbook contains the following sheets:
 
-### 1. Raw Data
-Contains the complete sports dataset used for analysis.
-
-### 2. Pivot Table
-Contains pivot tables created from the raw data for analysis of:
-
-- Goals
-- Ticket Revenue
-- Merchandise Revenue
-- Attendance
-- Team performance
-- Match results
-- Venue performance
-
-### 3. Dashboard
-Main dashboard containing visual insights and KPIs.
-
-### 4. Team
-Team-level performance analysis.
-
-### 5. Player
-Player-level performance analysis.
-
-### 6. Attendance
-Analysis of stadium attendance and fan participation.
-
-### 7. Pricing
-Analysis of ticket pricing and ticket revenue.
-
-### 8. Logo
-Supporting dashboard design elements.
-
----
-
-## 📈 Key Analysis
-
-The dashboard focuses on several important business questions:
-
-### Team Performance
-- Which team performs best?
-- Which team scores the most goals?
-- How many matches are won, drawn, or lost?
-- How does performance vary by venue?
-
-### Player Performance
-- Which players score the most goals?
-- Which players provide the most assists?
-- Which players have the highest playing time?
-
-### Fan Engagement
-- Which fan channel generates the highest reach?
-- Which channel has the highest engagement rate?
-- How does fan engagement vary across teams?
-
-### Attendance
-- Which teams attract the highest attendance?
-- How does attendance vary by venue?
-- What is the relationship between attendance and ticket revenue?
-
-### Revenue
-- Which months generate the highest ticket revenue?
-- Which teams generate the highest merchandise revenue?
-- How does ticket price affect ticket revenue?
+| Sheet | Purpose |
+|---|---|
+| `Raw Data` | Source sports dataset |
+| `pivot table` | Pivot-based calculations and summaries |
+| `DASHBOARD` | Main interactive dashboard |
+| `TEAM` | Team performance analysis |
+| `PLAYER` | Player performance analysis |
+| `ATTENDENCE` | Attendance and fan engagement |
+| `PRICING` | Ticket and merchandise revenue |
+| `LOGO` | Dashboard branding |
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Excel**
-- Pivot Tables
+- Microsoft Excel
+- PivotTables
+- PivotCharts
+- Excel Slicers
+- Excel Timeline
 - Excel Formulas
-- Charts & Visualizations
+- KPI Cards
+- Data Visualization
 - Dashboard Design
-- Data Cleaning
 - Data Analysis
 
 ---
 
-## 🔄 Project Workflow
+## 🔍 Key Insights
+
+This dashboard can be used to identify:
+
+- Overall match performance
+- Winning and losing trends
+- Top-performing players
+- Bottom-performing players
+- Attendance trends
+- Fan engagement performance
+- Monthly ticket revenue
+- Monthly merchandise revenue
+- Team-level performance
+- Venue-level performance
+
+---
+
+## 💡 Skills Demonstrated
+
+This project demonstrates practical skills in:
+
+- Data Analysis
+- Excel Dashboard Development
+- Data Visualization
+- PivotTable Analysis
+- Interactive Reporting
+- KPI Development
+- Sports Analytics
+- Business Intelligence
+- Data Storytelling
+- Excel Dashboard UI/UX
+
+---
+
+## 📁 Repository Structure
 
 ```text
-Raw Data
-   ↓
-Data Cleaning & Preparation
-   ↓
-Pivot Tables
-   ↓
-Data Analysis
-   ↓
-KPIs & Charts
-   ↓
-Interactive Dashboard
-   ↓
-Business Insights
-## 📸 Dashboard Preview
-
-### Main Dashboard
-
-![Sports Dashboard](images/dashboard.png)
-
-### Team Performance
-
-![Team Performance](images/team.png)
-
-### Player Performance
-
-![Player Performance](images/player.png)
-
-### Attendance Analysis
-
-![Attendance Analysis](images/attendance.png)
-
-### Pricing Analysis
-
-![Pricing Analysis](images/pricing.png)
+SPORTS-TEAM-PERFORMANCE-AND-FAN-ENGAGEMENT-DASHBOARD/
+│
+├── README.md
+│
+├── Sports Dashboard.xlsx
+│
+├── RAW DATA Project 1.xlsx
+│
+└── images/
+    ├── dashboard-overview.png
+    ├── match-analytics.png
+    ├── player-performance.png
+    ├── attendance-fan-engagement.png
+    ├── revenue-analysis.png
+    └── dashboard-logo.png
