@@ -10,8 +10,7 @@ The dashboard uses **PivotTables, PivotCharts, Slicers, Timeline, formulas, inte
 ## 📊 Dashboard Preview
 
 ### Main Dashboard
-
-![Dashboard Overview](images/dashboard-overview.png)
+<img width="599" height="421" alt="Screenshot 2026-09-09 093836" src="https://github.com/user-attachments/assets/6d979345-af31-4e19-9959-a67f11091762" />
 
 ### Match Analytics
 
